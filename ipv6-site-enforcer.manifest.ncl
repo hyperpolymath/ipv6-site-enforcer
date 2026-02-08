@@ -7,7 +7,7 @@
   layer = 'network,
   description = "IPv6 site enforcement with Jool NAT64 translation and Unbound DNS64 synthesis",
   repo = "github.com/hyperpolymath/ipv6-site-enforcer",
-  requires = ["kubernetes"],
+  requires = ["kubernetes", "hesiod-dns-map"],
   provides = ["nat64", "dns64", "ipv6-enforcement"],
   config_schema = "configs/schema.ncl",
   health_endpoint = "/health",
