@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: PMPL-1.0-or-later
+# SPDX-License-Identifier: MPL-2.0
 # Jool NAT64 + Unbound DNS64 sidecar deployment
 apiVersion: apps/v1
 kind: Deployment
